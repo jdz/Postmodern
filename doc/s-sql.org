@@ -1,7 +1,10 @@
 #+TITLE: S-SQL Reference Manual
-#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil num:1
+#+BIND: org-html-postamble nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-htmlize-output-type nil
 
 This is the reference manual for the S-SQL component of the postmodern library.
 
@@ -9,6 +12,8 @@ S-SQL provides a lispy syntax for SQL queries, and knows how to convert various
 lisp types to their textual SQL representation. It takes care to do as much of
 the work as possible at compile-time, so that at runtime a string concatenation
 is all that is needed to produce the final SQL query.
+
+#+TOC: headlines 1
 
 * Interface
 #+NAME: SQL

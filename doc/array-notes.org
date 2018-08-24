@@ -1,7 +1,10 @@
 #+TITLE: S-SQL and Postgresql Arrays
-#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil num:1 toc:1
+#+BIND: org-html-postamble nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-htmlize-output-type nil
 
 [[file:s-sql.html][Return to s-sql.html]]
 * Summary

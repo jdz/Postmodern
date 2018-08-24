@@ -1,7 +1,10 @@
 #+TITLE: Postmodern Reference Manual
-#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil num:1
+#+BIND: org-html-postamble nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-htmlize-output-type nil
 
 This is the reference manual for the component named postmodern, which is
 part of a library of the same name.
@@ -16,6 +19,7 @@ that break the connection (socket errors, database shutdowns) will be
 raised as subtypes of database-connection-error, providing a :reconnect
 restart to re-try the operation that encountered to the error.
 
+#+TOC: headlines 1
 
 * Connecting
 ** class database-connection

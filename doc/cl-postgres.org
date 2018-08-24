@@ -1,12 +1,16 @@
 #+TITLE: Cl-Postgres Reference Manual
-#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil num:1
+#+BIND: org-html-postamble nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-htmlize-output-type nil
 
 The CL-postgres module implements a rather low-level interface for
 communicating with a PostgreSQL database server. It is part of the Postmodern
 library, but can be used separately.
 
+#+TOC: headlines 1
 
 * Connecting
 ** class database-connection

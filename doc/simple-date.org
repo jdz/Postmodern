@@ -1,7 +1,10 @@
 #+TITLE: Simple-Date
-#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil num:1
+#+BIND: org-html-postamble nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-htmlize-output-type nil
 
 Simple-date provides types (CLOS classes) for dates, timestamps, and intervals
 similar to the ones SQL databases use, in order to be able to store and read
@@ -14,6 +17,10 @@ pretends the whole world lives in UTC. Use with care.
 To use this library with cl-postgres or postmodern,
 load simple-date-cl-postgres-glue to register suitable SQL
 readers and writers for the associated database types.
+
+#+TOC: headlines 1
+
+* Quick notes
 
 To get back to the default cl-postgres reader:
 #+BEGIN_SRC lisp
@@ -34,7 +41,6 @@ reader:
 #+BEGIN_SRC lisp
 (local-time:set-local-time-cl-postgres-readers)
 #+END_SRC
-
 
 * Date type
 ** class date

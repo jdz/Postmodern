@@ -1,7 +1,10 @@
 #+TITLE: Dynamic Query Notes
-#+OPTIONS: num:nil
+#+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil num:1
+#+BIND: org-html-postamble nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-htmlize-output-type nil
 * Overview
 The question often gets asked how to build dynamic or composable queries
 in postmodern. First we need to remember that the query macro assumes that

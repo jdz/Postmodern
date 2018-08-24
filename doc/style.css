@@ -98,3 +98,7 @@ ul.symbol-index {
   font-family: monospace;
   font-size: 1.2em;
 }
+
+#text-table-of-contents li {
+  list-style-type: none;
+}
